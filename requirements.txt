@@ -1,0 +1,17 @@
+# Core MLOps tool
+mlflow==3.12.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Hyperparameter Tuning
+hyperopt==0.2.7
+setuptools<81  # Required by hyperopt on Python 3.12+
+
+# Visualization (for monitoring plots)
+matplotlib>=3.9.0
+
+# REST API client (for predict_client.py)
+requests>=2.31.0
